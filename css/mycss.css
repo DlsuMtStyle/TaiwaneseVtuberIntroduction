@@ -1,0 +1,57 @@
+body {
+    padding:0;
+    margin:0 auto;
+    font-family: 微軟正黑體 ;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.nav_logo {
+    margin-left: 50px;
+    margin-top: 10px;
+    z-index: 99;
+}
+
+.nav_logo img {
+    height: 75px;
+    width: 340px;
+}
+
+.nav_right {
+    position: fixed;
+    top: 20px;
+    left: 375px;
+}
+
+.nav_right ul li {
+    display: block;
+    color:white;
+    float: left;
+    margin-left: 50px;
+}
+
+.nav_right ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+
+.nav_right ul li a:hover {
+    color: plum;
+    transition: 0.5s;
+}
+
+.nav_cover img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav_introductiontitle 
