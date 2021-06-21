@@ -22,7 +22,7 @@ body {
 
 .nav_logo img {
     height: 75px;
-    width: 340px;
+    width: 300px;
 }
 
 .nav_right {
@@ -45,7 +45,7 @@ body {
 }
 
 .nav_right ul li a:hover {
-    color: plum;
+    color: rgb(255, 246, 127);
     transition: 0.5s;
 }
 
@@ -54,4 +54,8 @@ body {
     width: 100%;
 }
 
-.nav_introductiontitle 
+.nav_introductiontitle {
+    background-image: url(../img/newcoverbg1.png);
+    background-size: cover;
+    padding: 200px;
+}
